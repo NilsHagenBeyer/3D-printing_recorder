@@ -8,7 +8,7 @@ The printer should be connected to a Octoprint server: https://github.com/OctoPr
 
 ### Make a makro
 
-To log metadata and to schedule prints use the $generate_makro$ script:
+To log metadata and to schedule prints use the *generate_makro* script:
 
   - First create a directory in the gcode folder
   - Put all gcode files for printing in this folder
@@ -20,7 +20,7 @@ To log metadata and to schedule prints use the $generate_makro$ script:
   
 ### Record the images
 
-To record images use the $makro_recorder$:
+To record images use the *makro_recorder*:
   
   In the script:
   - Specify a base path for the images to be saved
@@ -34,7 +34,7 @@ To record images use the $makro_recorder$:
   
   ## Create Under-Extrusion
     
- To create the Under-Extrusion error, use the $gcode_modifier$ script:
+ To create the Under-Extrusion error, use the *gcode_modifier* script:
     
     In the Script:
     - Specify directory with gcode files to be modified
