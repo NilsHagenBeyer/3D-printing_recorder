@@ -10,19 +10,26 @@ def is_between_key_pairs(d, i):
             return True
     return False
 
-currentdir = os.path.dirname(os.path.realpath(__file__))
-parentdir = os.path.dirname(currentdir)
-gcodedir = currentdir + "/gcode"
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+PARENT_DIR = os.path.dirname(SCRIPT_DIR)
+GCODE_DIR = SCRIPT_DIR + "/gcode"
 
-######################################### EINGABEN
+''' This script can be used to modify gcode files to simulate underextrusion
 
+    - Specify directory with gcode files to be modified
+    - Set the printing parameter to be logged
+    - Set the under extrusion parameter to specify the error properties
+    - Run the script to modify your gcode files; The script automatically creates a makro.yaml for print scheduling
+
+'''
+
+######################################### Configuration ####################################
+# configure the makro directory, where the gcode files are stored
 dirname = "complex_shapes_2_underex"
-makrodir = "%s/%s" %(gcodedir, dirname)
 
-generate_macro = True
-delete_unmodified_gcode = True
-debug_mode = False
-# META DATA
+
+##### PRINTING PARAMETERS #####
+# modify the printing parameters to match your slicing settings
 recording_class = "underextrusion"
 nozzle = 0.4
 filament = "PLA"
@@ -32,27 +39,28 @@ retraction = 8.5
 shape = "complex"
 printbed_color = "black"
 
-# the layers and in between can be be modified
-modify_layers_between = [5,200]
-# minimum layers to be modified
-min_modified_layers = 8
-# possibility of a layer to be modified
-modify_layer_chance = 0.25
-# top layer cap
-top_layer_cap = 10
+##### UNDEREXTRUSION PARAMETERS #####
 
+modify_layers_between = [5,200]         # the layers and in between can be be modified
+min_modified_layers = 8                 # minimum layers to be modified
+modify_layer_chance = 0.25              # possibility of a layer to be modified
+top_layer_cap = 10                      # top layer cap, to prevent the top layers from being modified
+modify_line_chance = 0.9                # possibility of a layer subsection (line) to be modified
 
-# possibility of a line to be modified
-modify_line_chance = 0.9
-# the extrusion will be multiplied by this value
-modify_extrusion_mean = 0.6
+modify_extrusion_mean = 0.6             # extrusion factor mean and std
 modify_extursion_std = 0.2
 
 # sets the filename ending of the modified gcode file
 modified_file_ending = "_modified.gcode"
 
+##### SCRIPT  #####
+generate_macro = True
+delete_unmodified_gcode = True
+debug_mode = False
 
-######################################### START SCRIPT
+
+######################################### START ############################################
+makrodir = "%s/%s" %(GCODE_DIR, dirname)
 # find all gcode files in makrodir
 f = []
 for (dirpath, dirnames, filenames) in os.walk(makrodir):
@@ -63,7 +71,7 @@ f = [x for x in f if not x.endswith(modified_file_ending)]
 # sort f alphabetically
 f.sort()
 
-########################################## iterate over all gcode files
+# iterate over all gcode files
 for gcode in f: 
     # generat full filepath
     filepath = "%s/%s" %(makrodir, gcode)
