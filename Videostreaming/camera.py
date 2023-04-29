@@ -4,10 +4,10 @@ import cv2# defining face detector
 ds_factor=1
 
 class VideoCamera(object):
-    def __init__(self, focus=110):
+    def __init__(self, port, focus=110):
         self.startfocus = 50
         #capturing video
-        self.video = cv2.VideoCapture(2)
+        self.video = cv2.VideoCapture(port)
 
         #self.video.set(3, 2592)
         #self.video.set(4, 1944)

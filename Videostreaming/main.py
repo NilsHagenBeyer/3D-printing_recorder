@@ -18,7 +18,7 @@ def gen(camera):
                
 @app.route('/video_feed')
 def video_feed():
-    return Response(gen(VideoCamera(focus=110)),
+    return Response(gen(VideoCamera(0, focus=110)),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
                     
                     
