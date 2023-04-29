@@ -1,0 +1,26 @@
+- class: underextrusion
+  ex_mul: 0.75
+  extrusion_std: 0.1
+  filament: PLA
+  filament_color: gray
+  gcode: ffffff_20m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[5, 11, 13, 17, 18, 20, 22, 34]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.75
+  extrusion_std: 0.1
+  filament: PLA
+  filament_color: gray
+  gcode: stringing-test_11m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[6, 7, 10, 11, 13, 14, 19, 25, 26, 27, 33, 34]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex

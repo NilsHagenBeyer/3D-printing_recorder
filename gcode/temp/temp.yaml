@@ -1,0 +1,15 @@
+- class: underextrusion
+  ex_mul: 0.82
+  extrusion_std: 0.1
+  filament: PLA
+  filament_color: gray
+  gcode: TOWERS_GOOD_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[8, 9, 16, 18, 21, 22, 24, 28, 30, 45, 51, 57, 59, 62, 65, 68,
+    70, 71, 76, 84, 86, 88, 90, 91, 102, 103, 106, 108, 116, 119, 120, 126, 132, 133,
+    134, 139, 141, 149, 151, 154, 160]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: 10

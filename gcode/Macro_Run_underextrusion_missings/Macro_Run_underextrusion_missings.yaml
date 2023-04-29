@@ -1,0 +1,156 @@
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: Lampenhalterung v2_43m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[10, 13, 23, 24, 29, 32, 34, 38]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: PART_9A_16m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[6, 11, 13, 14, 16, 18, 25, 27, 28, 32]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: Stringing_Testingfff_21m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[11, 12, 13, 15, 18, 22, 27, 34, 38, 40]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: Stringing_sdfTest_13m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[8, 10, 12, 13, 16, 17, 19, 21, 22, 23, 24, 38, 41]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: stringing-test_6m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[5, 8, 11, 19, 31, 39, 40, 41]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: stringing_dt-test_6m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[7, 11, 18, 27, 32, 33, 34, 36, 38, 40, 41]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: 4_tofwer_ver_31m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[5, 7, 13, 14, 16, 22, 23, 28, 31, 32, 44, 45, 49, 50, 60, 62]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: Carlos_Nippel v1_23m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[10, 12, 14, 22, 32, 33, 35, 51]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: Christmas_Tree_Inset_3_17m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[9, 14, 15, 33, 36, 37, 42, 49]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: Christmas_Tree_Twist_1_19m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[5, 7, 8, 17, 20, 21, 22, 25, 26, 32, 33, 38, 43, 45, 49, 52]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: D4_10m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[5, 7, 13, 14, 17, 18, 35, 38, 39, 44, 46, 47, 50]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex
+- class: underextrusion
+  ex_mul: 0.5
+  extrusion_std: 0.2
+  filament: PLA
+  filament_color: gray
+  gcode: D8_14m_0,30mm_210C_PLA_ENDER3BLTOUCH_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[5, 9, 12, 20, 21, 23, 25, 36, 39]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: complex

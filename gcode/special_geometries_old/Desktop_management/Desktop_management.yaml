@@ -1,0 +1,10 @@
+---
+- extrusion_multiplier: 1
+  filament: PLA
+  filament_color: gray
+  gcode: s_shaped_cable_clip_20m_0,30mm_210C_PLA_ENDER3BLTOUCH.gcode
+  layer_height: 0.3
+  nozzle: 0.4
+  recording_class: underextrusion
+  retraction: 5
+  shape: complex

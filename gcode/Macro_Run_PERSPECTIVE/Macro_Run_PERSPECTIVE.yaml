@@ -1,0 +1,74 @@
+---
+- class: underextrusion
+  ex_mul: 0.85
+  extrusion_std: 0.1
+  filament: PLA
+  filament_color: gray
+  gcode: TOWERS_UNDEREX_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[21, 22, 28, 34, 36, 50, 54, 55, 68, 72, 73, 74, 76, 81, 83, 85,
+    89, 90, 92, 97, 101, 102, 113, 114, 115, 118, 120, 128, 129, 134, 138, 142, 143,
+    149]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 8.5
+  shape: 10
+- class: underextrusion
+  ex_mul: 0.75
+  extrusion_std: 0.1
+  filament: PLA
+  filament_color: gray
+  gcode: mull_UNDEREX_modified.gcode
+  layer_height: 0.3
+  modified_layers: '[5, 12, 16, 17, 20, 22, 30, 33, 38, 39, 40, 41, 43, 48, 53, 57,
+    63, 65, 69, 70, 71, 77, 79, 87, 88, 89, 91]'
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 6
+  shape: 3
+- class: STRINGING
+  ex_mul: 1
+  filament: PLA
+  filament_color: gray
+  gcode: TOWERS_GOOD.gcode
+  layer_height: 0.3
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 6
+  shape: 10
+- class: STRINGING
+  ex_mul: 1
+  filament: PLA
+  filament_color: gray
+  gcode: TOWERS_STRINGING.gcode
+  layer_height: 0.3
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 1
+  shape: 10
+- class: GOOD
+  ex_mul: 1
+  filament: PLA
+  filament_color: gray
+  gcode: mull_GOOD.gcode
+  layer_height: 0.3
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 6
+  shape: 3
+- class: STRINGING
+  ex_mul: 1
+  filament: PLA
+  filament_color: gray
+  gcode: mull_STRINGING.gcode
+  layer_height: 0.3
+  nozzle: 0.4
+  printbed_color: black
+  recording: null
+  retraction: 1
+  shape: 3
