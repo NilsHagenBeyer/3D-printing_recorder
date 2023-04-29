@@ -36,10 +36,10 @@ To record images use the *makro_recorder*:
     
  To create the Under-Extrusion error, use the *gcode_modifier* script:
     
-    In the Script:
-    - Specify directory with gcode files to be modified
-    - Set the printing parameter to be logged
-    - Set the under extrusion parameter to specify the error properties
-    - Run the script to modify your gcode files; The script automatically creates a makro.yaml for print scheduling
+  In the Script:
+  - Specify directory with gcode files to be modified
+  - Set the printing parameter to be logged
+  - Set the under extrusion parameter to specify the error properties
+  - Run the script to modify your gcode files; The script automatically creates a makro.yaml for print scheduling
  
   
