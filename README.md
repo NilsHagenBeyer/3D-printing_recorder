@@ -5,7 +5,7 @@ It's purpose is to create an image dataset to explore visual error detection in 
 The dataset created with this tool, can be found at the bottom of this page.
 
 
-Furthermore it is possible to inflict the Under-Extrusion synthetically on gcode-files, to create this error in a determined manner.
+Furthermore it is possible to inflict Under-Extrusion synthetically on gcode-files, to create this error in a determined manner.
 The printer should be connected to a Octoprint server: https://github.com/OctoPrint/octoprint-docker
 
 ## How to record
