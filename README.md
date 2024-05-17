@@ -1,7 +1,11 @@
 # 3D-printing_recorder
 
 This repository is used to record image data of a 3D printing process.
-Also the Under-Extrusion error can be inflicted synthetically on gcode-files.
+It's purpose is to create an image dataset to explore visual error detection in 3D-printing with machine learning.
+The dataset created with this tool, can be found at the bottom of this page.
+
+
+Furthermore it is possible to inflict the Under-Extrusion synthetically on gcode-files, to create this error in a determined manner.
 The printer should be connected to a Octoprint server: https://github.com/OctoPrint/octoprint-docker
 
 ## How to record
